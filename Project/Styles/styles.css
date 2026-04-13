@@ -1,0 +1,149 @@
+body{
+    background-color: #3D195B;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1{
+    color: white;
+    font-family: verdana;
+    text-decoration:solid;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-family: verdana;
+    text-decoration:solid;
+    text-align: center;
+    font-size: medium;
+}
+
+.anchorLarge {
+    color: rgb(255, 0, 47) ;
+    font-size: 2em;
+    padding: 5%;
+}
+
+body{
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    padding: 5px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: white;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border:2px solid black;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    color: #3D195B;
+    text-decoration: none;
+}
+
+nav ul li:hover {background-color: lightblue;}
+
+header{
+    background-image: url(/Project/Images/PLimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+    color: navajowhite;
+    border: 1px solid lightblue;
+}
+
+footer{
+    margin-top: 2px;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 6%;
+    background-color: #3D195B;
+    text-align: center;
+}
+
+li{
+    font-size: large;
+}
+
+.image{
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    width: 40%;
+    height: 20%;
+}
+
+h3{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.maintext{
+    text-align: center;
+    text-decoration: solid;
+}
+
+table {
+    width:80%;
+    border :1px solid white;
+    border-collapse: collapse;
+    font-size:x-large;
+    text-align: center;
+    vertical-align: middle;
+    padding :2px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+th,td {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+}
+
+thead th {
+  width: 25%;
+}
+
+.cell-highlight {
+  background-color: gold;
+  font-weight: bold;
+}
+
+.colour_tab
+{
+    color:lightblue;
+}
+
+.videocontent{
+    float: right;
+    width: 49%;
+    border: 2px solid white;
+    max-height: 400px;
+    min-height: 400px;
+    overflow: auto;
+}
